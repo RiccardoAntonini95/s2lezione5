@@ -1,0 +1,144 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e9edee;
+}
+
+
+.figure-links{
+    font-weight: bold;
+    text-decoration: none;
+    color: #155a60;
+    font-size: 0.7rem;
+}
+section figure figcaption{
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    margin-left: 8px;
+    font-size: 0.9rem;
+}
+/* header */
+
+.logo-top{
+    background-color: #222f3f;
+}
+
+.logo-top img{
+    width: 7%;
+    padding: 5px 24px;
+}
+
+nav{
+    background-color: #364759;
+}
+
+nav ul li{
+    display: inline-block;
+    color: white;
+    padding: 8px 5px;
+    font-size: 0.7rem;
+}
+
+nav ul li:first-child{
+    margin-left: 20px;
+}
+
+/* main */
+main{
+    padding: 0 25px;
+    text-align: center;
+}
+
+main section{
+    background-color: white;
+}
+
+/* first section */
+#gift-card{
+    color: #e9edee;
+    background-color: #e9edee;
+    margin-bottom: 17px;
+}
+
+#orange-div{
+    background-color: #f56600;
+    margin: 17px 0;
+    font-size: 0.7rem;
+    padding: 7px 0;
+}
+
+#gift-banner{
+    background-image: url('../images/bg-image.png');
+    background-size: 92%;
+    line-height: 1.5em;
+    font-weight: bold;
+}
+
+#gift-banner h1{
+    padding-top: 65px;
+    font-size: 1.3em;
+}
+
+#gift-banner p{
+    font-size: 0.7em;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+/* second section */
+#regali{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#regali figure figcaption{
+    padding-left: 14px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.regali-image{
+    width: 16rem;
+    border-radius: 6%;
+    padding-bottom: 15px;
+    height: 20rem;
+    margin-left: 25px;
+    object-fit: cover;
+}
+
+/* third and fourth section */
+.gaming-audio{
+    background-color: #e9edee;
+}
+
+.gaming-audio img{
+    width: 100%;
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+}
+
+footer div:first-child{
+    background-color: #364759;
+}
+
+footer div:last-child{
+    background-color: #222f3f;
+}
+
+footer a{
+    color: white;
+    font-size: 0.8em;
+    padding: 10px 0px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+footer img{
+    width: 12%;
+    padding: 45px 0;
+}
+
